@@ -42,9 +42,9 @@ public:
 
     string getTime();
 
-
-
     bool existInAnyList(string);
+
+    virtual ~ClientManagement();
 
 private:
     LinkedDouble<ClientHorrorHouse>* currentList;

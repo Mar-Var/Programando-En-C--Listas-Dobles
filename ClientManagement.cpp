@@ -89,9 +89,8 @@ int ClientManagement::getSizeRow() {
 bool ClientManagement::deleteClientSimply(string idPoint) {
 
     if(findClientPoint(idPoint)!=NULL){
-        ClientHorrorHouse chh = currentList->deleteNode(findClientPoint(idPoint));
-        currentList->deleteNode(findClientPoint(idPoint));
-        totalList->addNodeFirst(chh);
+        
+        totalList->addNodeFirst(currentList->deleteNode(findClientPoint(idPoint));;
         return true;
 
     }
@@ -138,6 +137,11 @@ string ClientManagement::getTime() {
     strftime(timeString, sizeof(timeString), "%H:%M:%S", time_info);
 
     return timeString;
+}
+
+ClientManagement::~ClientManagement() {
+    delete(this);
+
 }
 
 
