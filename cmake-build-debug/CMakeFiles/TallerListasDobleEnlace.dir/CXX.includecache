@@ -12,6 +12,12 @@ string
 ostream
 -
 
+C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientManagement.cpp
+ClientManagement.h
+C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientManagement.h
+ctime
+-
+
 C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientManagement.h
 ClientHorrorHouse.h
 C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientHorrorHouse.h
@@ -34,15 +40,5 @@ string
 
 C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/NodeDouble.h
 cstdlib
--
-
-C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/main.cpp
-iostream
--
-ClientManagement.h
-C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientManagement.h
-ClientHorrorHouse.h
-C:/Users/USUARIO/CLionProjects/TallerListasDobleEnlace/ClientHorrorHouse.h
-string
 -
 

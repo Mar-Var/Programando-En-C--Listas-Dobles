@@ -12,7 +12,7 @@
 class ClientManagement {
 public:
     ClientManagement();
-    bool validateFields(string);
+    bool validateFields(string,string,string,string,int,string,string);
 
     bool addFirstPlace( ClientHorrorHouse );
 
@@ -44,13 +44,20 @@ public:
 
     bool existInAnyList(string);
 
+    const string &getWaringMessage() const;
+
+    bool isNumber (string);
+    bool isNotNumber(string);
+
+    void setWaringMessage(const string &waringMessage);
+
     virtual ~ClientManagement();
 
 private:
     LinkedDouble<ClientHorrorHouse>* currentList;
     LinkedDouble<ClientHorrorHouse>* blackList;
     LinkedDouble<ClientHorrorHouse>* totalList;
-
+    string waringMessage;
 };
 
 
