@@ -94,17 +94,14 @@ void LinkedDouble<T>::addNodeAfterTo(NodeDouble<T> *after, T info) {
 template<class T>
 std::vector<T> LinkedDouble<T>::getList(bool sw) {
     std::vector<T> out;
-
     NodeDouble<T> *aux = sw ? head : last;
-
     while (aux != NULL) {
         out.push_back(aux->info);
         aux = sw ? aux->next : aux->previous;
     }
-
     return out;
-
 }
+
 
 template<class T>
 int LinkedDouble<T>::getSize() {

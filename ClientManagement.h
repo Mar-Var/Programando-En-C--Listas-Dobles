@@ -40,6 +40,8 @@ public:
 
     std::vector<ClientHorrorHouse> getBlackList(bool);
 
+    string getTime();
+
 
 
     bool existInAnyList(string);
